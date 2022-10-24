@@ -1,0 +1,40 @@
+Zoologico=[]
+Bucle=1
+do {
+>While(True);
+	print("Presione 1 para agregar un animal a la lista.")
+	print("Presione 2 para eliminar un animal de la lista.")
+	print("Presione 3 para buscar un animal en la lista.")
+	print("Presione 0 para terminar el proceso.")
+	print(len(Zoologico))
+	indice=(int(input()))
+	if (indice==1):
+		Zoologico.append(input("Ingrese un animal."):
+		Zoologico.sort
+	elif (indice==2):
+	if (len(Zoologico)>0):
+		for i in range (0, len(Zoologico)>:
+			print(i,+Zoologico(i)
+		num=input("Seleccione que animal desea eliminar.")))
+			if(num<len(Zoologico and num>=0)):
+			Zoologico.pop(num)
+				print("La lista está vacía.")
+	elif (indice==3):
+	if (len(Zoologico)>0):
+		an=Zoologico.index(input("Animal a buscar:")
+		if (an==0 & len(Zoologico)==1):
+			print ("Es el unico animal")
+			elif (an==len(Zoologico)-1):
+		print("A su izquierda está ",+Zoologico[an-1]+") y a la derecha nada, porque es el último")
+		elif (an==0):
+		print("A su izquierda no tiene nada porque es el primero y a la derecha se encuentra ",+Zoologico[an-1])
+		else:
+		print("A la izquierda se encuentra ",+Zoologico[an-1]," y a la derecha ",+Zoologico[an-1])
+			print("No hay animales en la lista")
+		elif (indice==0):
+			print(Zoologico)
+			break
+			else:
+			print("Opcion no valida")
+	
+
